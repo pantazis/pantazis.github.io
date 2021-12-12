@@ -37,6 +37,22 @@
 
  <div class="container pp">
      <div class="row">
+      <a href="https://dnhost.gr/offers/halloween" class="col-lg-3 col-md-6 col-12">
+        <div class="resio"><img src="img/13.png" alt=""></div>
+        <p>interactive css animation2</p>
+        </a>
+        <a href="https://dnhost.gr/hosting/web-hosting" class="col-lg-3 col-md-6 col-12">
+          <div class="resio"><img src="img/12.png" alt=""></div>
+          <p>Redesign web hosting page</p>
+          </a>
+          <a href="https://dnhost.gr/hosting/web-hosting" style="display:none" class="hidden col-lg-3 col-md-6 col-12">
+            <div class="resio"><img src="img/12.png" alt=""></div>
+            <p>Redesign web hosting page</p>
+            </a>
+            <a href="https://dnhost.gr/" class="col-lg-3 col-md-6 col-12">
+              <div class="resio"><img src="img/11.png" alt=""></div>
+              <p>interactive css animation</p>
+              </a>
           
 
 
@@ -54,18 +70,7 @@
             
 
 
-         <a href="https://www.petrogazenergy.gr" class="col-lg-3 col-md-6 col-12">
-         <div class="resio"><img src="img/2.png" alt=""></div>
-         <p>petrogazenergy.gr</p>
-         </a>
-            
-
-
-         <a href="https://www.fileleftheros.gr" class="col-lg-3 col-md-6 col-12">
-         <div class="resio"><img src="img/3.png" alt=""></div>
-         <p>fileleftheros.gr</p>
-         </a>
-            
+        
 
 
          <a href="https://www.liberal.gr" class="col-lg-3 col-md-6 col-12">
@@ -107,6 +112,8 @@
          <div class="resio"><img src="img/9.png" alt=""></div>
          <p>florinatravel.gr</p>
          </a>
+        
+        
               </div>
  </div>
 
@@ -168,7 +175,19 @@
      
      });
 
+      var $arr =[]
+     $(document).keydown(function(e){
+      var num1=e.originalEvent.key;
+      if(num1==1){
+        $arr.push(num1);
+      }else{
+        $arr =[];
+      }
+      if( $arr.length>3){
+        $(".hidden").attr("style","")
 
+      }
+     })
   </script>
 
   <!-- Custom scripts for this template -->
