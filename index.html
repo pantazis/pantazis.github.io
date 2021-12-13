@@ -8,8 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 
-  <title>Coming Soon - Start Bootstrap Theme</title>
+  <title>Pantazis Vastardis - Portfolio</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,11 +29,15 @@
 
 <body>
   <style>
+    .open .container.pp .row{
+      opacity: 0;
+    }
     .container.pp {
    min-height: 100vh;
     display: flex;
 }
-.row {  
+.row { 
+  transition: opacity .3s; 
     margin: auto !important;
 }
   </style>
