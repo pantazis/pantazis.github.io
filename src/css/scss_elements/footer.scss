@@ -1,0 +1,30 @@
+footer {
+    $border: 1px solid rgb(229, 231, 235);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: $border;
+    border-bottom: $border;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    height:$footerheight;
+
+    .gridf {
+        display: grid;       
+        grid-template-columns: repeat(5, auto);
+        grid-gap: 10px;
+        color: rgb(107, 114, 128);
+        font-size: 14px;
+    }
+    .flexf {
+        display: flex;
+        justify-content: end;
+    }
+}
+
+.footerf{
+    height:$footerheight;
+
+}

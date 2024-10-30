@@ -1,0 +1,119 @@
+DOME Onboarding
+
+jesus@alastria.io
+
+Logoff
+
+The forms are below. Please, click the "Submit and create documents" at the bottom after filling all the fields.
+
+For testing purposes, you can click the "Fill with test data" button to create and print documents with test data but with the final legal prose, so they can be reviewed by your legal department in advance of creating the real documents.
+
+Legal representative of the company
+
+We need information
+
+identifying the legal
+
+representative of the
+
+company who is going to sign
+
+the document.
+
+First Name
+
+Jesus
+
+Last Name
+
+Ruiz
+
+Nationality
+
+Spanish
+
+ID card number
+
+24676932R
+
+Company information
+
+We also need information
+
+about the company so we can register it in DOME.
+
+Make sure that the name is the legal name of the company as found in the commercial registry or
+
+equivalent institution in your jurisdiction. The address must
+
+be that of the official place of incorporation of your company.
+
+We need the VAT number of your company because we use it as a unique identifier in our database. At this moment, this is not used to charge you anything. Whenever in the future we provide paid services to you, a specific
+
+authorisation will be
+
+requested, and you will have
+
+to adhere to new terms of
+
+contract.
+
+Name
+
+Air Quality Cloud
+
+Street name and number
+
+C/ Mercado 54
+
+City
+
+Madrid
+
+Postal code
+
+28654
+
+Country Spain
+
+VAT number
+
+B35664875
+
+Information about the LEAR
+
+This section identifies an employee of the company who will act as the LEAR.
+
+The LEAR is the Legal Entity Appointed Representative. Do not confuse with the Legal Representative, who has to appear in the official records in the commercial registry or equivalent institution in your jurisdiction. Instead, the LEAR can be any person who is authorised by a Legal Representative to interact with DOME and act on behalf of the company. There is specific information about the LEAR in the knowledge base. Of course, the Legal Representative can appoint him/herself as the LEAR for
+
+DOME, if this is what is
+
+First name
+
+John
+
+Last name
+
+Doe
+
+Nationality Spanish
+
+ID card number
+
+56332876F
+
+Email
+
+john.doe@airquality.com
+
+Mobile phone +34876549022
+
+suitable for you.
+
+Submit and create documents
+
+Fill with test data (only for testing)
+
+Click the "Submit and create documents" button above to create the documents automatically including the data you entered.
+
+If you are not yet ready and want to see how the final documents look like, click the button "Fill with test data" and then the "Submit and create documents" button to create the documents with test data.

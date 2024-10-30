@@ -1,0 +1,25 @@
+.search_box{
+    $padding: 10px;
+   
+    .search {
+        display: grid;
+        grid-template-columns: 1fr auto;
+    }
+    .input{
+        padding: $padding;
+background-color: rgb(249, 250, 251);
+border: 1px solid rgb(209, 213, 219);
+border-bottom-left-radius:  $radius;
+border-top-left-radius:  $radius;
+
+
+    }
+    .box{
+        padding: $padding;
+        background-color: $blue;
+        color:#fff;
+        border-bottom-right-radius:  $radius;
+        border-top-right-radius:  $radius;
+
+    }
+    }

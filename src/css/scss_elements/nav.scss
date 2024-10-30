@@ -1,0 +1,28 @@
+nav{
+    background-color:$blue;
+    display: flex;
+	justify-content: center;
+    color:#fff;
+    height: $navheight;
+    position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+
+    .container {
+        display: flex;
+        justify-content: space-between;        
+        align-items: center;
+    }
+    .categorys {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 20px;
+    }
+
+}
+.navf{
+    height: $navheight;
+
+}
+

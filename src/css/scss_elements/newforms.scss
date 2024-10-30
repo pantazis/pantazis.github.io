@@ -1,0 +1,175 @@
+.newforms{
+
+
+    @mixin custom-box {
+        padding: $padding;      
+         border-radius: $radius;
+         border: 1px solid #ccc;
+    } 
+
+    h1{
+        color:$blue;
+      
+    }
+    h1{
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+  margin: 20px 0;
+  padding: 20px 0;
+  &.no{
+    margin-bottom: 0px;
+  
+    border-bottom:none;
+  }
+
+    }
+    form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;      
+        background-color: #dfdfdf;
+        @include custom-box;
+
+   
+    }
+
+    .input-p {
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+    @include button;
+    padding: 10px;
+    }
+
+    .action {
+        grid-column: 1 / -1;
+    }
+    .formg1{
+        @include custom-box;
+        display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+        & > h2 {
+            margin-top: 0;
+            font-size: 18px;
+        }
+
+    }
+    .gridlast {
+        display: grid;
+        grid-gap: 16px;
+    }
+
+    .box{
+        @include custom-box;
+
+    }
+    .grids {
+        display: grid;
+        grid-gap: 0 10px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: $radius;
+        font-size: 16px;
+    }
+
+    label {
+        font-size: 14px;
+        margin-bottom: 2px;
+        margin-left: 2px;
+        color: #606060;
+    }
+
+    .grid45 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: $padding;
+        &.a2{
+            grid-template-columns: 1fr ;
+             h2{
+                grid-column: 1 / -1;
+                
+             }
+            .formg1{           
+                display: grid;
+                grid-template-columns: 300px 1fr;
+                grid-gap: 10px;
+                align-items: flex-start;
+            
+
+        }
+        p{
+            margin-top: 0;
+
+        }
+
+
+        }
+      
+      }
+
+      .action.last {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+    }
+
+    .ff {
+        display: flex;
+    }
+
+    table {
+       
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 16px;
+
+        td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #fff;
+        }
+
+        td:first-child {
+            font-weight: bold;
+            background-color: #f0f0f0;
+            color:$blue;
+        }
+    }
+    .box.b2 {
+        min-height: 200px;
+    }
+    ul, ol {
+      
+            padding-left: 40px;
+            margin-bottom: 25px;
+            margin-top: 25px;
+        
+
+        li {
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+    }
+    
+
+    
+}
+
+
+
+

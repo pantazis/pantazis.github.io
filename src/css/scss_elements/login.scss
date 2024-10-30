@@ -1,0 +1,79 @@
+.form-p {
+    h2{
+        text-align: center;
+        color:$blue;
+    }
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .form-toggle {
+        display: grid;
+        width: 100%;
+        margin-bottom: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    .form-toggle button {
+        flex: 1;
+        padding: 10px;
+        border: none;
+        background-color: $blue;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        border-radius: $radius;
+    }
+
+    .form-toggle button:hover {
+        background-color: $blue;
+    }
+
+    .form-toggle button.active {
+        background-color: $blue;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .form input {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius:   $radius;
+    }
+
+    .form button {
+        padding: 10px;
+        border: none;
+        background-color: $blue;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        border-radius: $radius;
+    }
+
+    .form button:hover {
+        background-color: #2680e1;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .flex2 {
+        display: flex;
+        flex-direction: column;
+        min-height: calc(100vh - (#{$navheight} + #{$footerheight}));
+        justify-content: center;
+        align-items: center;
+    }
+}
