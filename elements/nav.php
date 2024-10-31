@@ -1,11 +1,13 @@
 <?php
 // Define the navigation items
-$navItems = [
+/*$navItems = [
     "Search",
     "Publish your product",
     "Buy a product",
     "Login"
-];
+];*/
+
+$navItems=[];
 
 
 

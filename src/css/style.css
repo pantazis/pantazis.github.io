@@ -356,6 +356,9 @@ footer {
   padding: 16px;
   border-radius: 8px;
   border: 1px solid #ccc; }
+  @media (max-width: 700px) {
+    .newforms form {
+      grid-template-columns: 1fr; } }
 .newforms .input-p {
   display: flex;
   flex-direction: column; }
@@ -394,6 +397,9 @@ footer {
   display: grid;
   grid-gap: 0 10px;
   grid-template-columns: 1fr 1fr; }
+  @media (max-width: 700px) {
+    .newforms .grids {
+      grid-template-columns: 1fr; } }
 .newforms input {
   padding: 10px;
   border: 1px solid #ccc;
@@ -408,6 +414,9 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px; }
+  @media (max-width: 700px) {
+    .newforms .grid45 {
+      grid-template-columns: 1fr; } }
   .newforms .grid45.a2 {
     grid-template-columns: 1fr; }
     .newforms .grid45.a2 h2 {
@@ -417,14 +426,23 @@ footer {
       grid-template-columns: 300px 1fr;
       grid-gap: 10px;
       align-items: flex-start; }
+      @media (max-width: 700px) {
+        .newforms .grid45.a2 .formg1 {
+          grid-template-columns: 1fr; } }
     .newforms .grid45.a2 p {
       margin-top: 0; }
 .newforms .action.last {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 10px; }
+  @media (max-width: 700px) {
+    .newforms .action.last {
+      grid-template-columns: 1fr; } }
 .newforms .ff {
   display: flex; }
+  @media (max-width: 700px) {
+    .newforms .ff {
+      display: block; } }
 .newforms table {
   width: 100%;
   border-collapse: collapse;

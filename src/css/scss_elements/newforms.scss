@@ -1,4 +1,5 @@
 .newforms{
+    $mid:700px;
 
 
     @mixin custom-box {
@@ -26,6 +27,11 @@
     form {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        @media (max-width: $mid) {
+            grid-template-columns: 1fr;
+
+        }
+       
         grid-gap: 10px;      
         background-color: #dfdfdf;
         @include custom-box;
@@ -70,6 +76,9 @@
         display: grid;
         grid-gap: 0 10px;
         grid-template-columns: 1fr 1fr;
+        @media (max-width: $mid) {
+            grid-template-columns: 1fr;
+        }
     }
 
 
@@ -90,6 +99,13 @@
     .grid45 {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        @media (max-width: $mid) {
+            grid-template-columns: 1fr;
+
+        }
+       
+
+        
         grid-gap: $padding;
         &.a2{
             grid-template-columns: 1fr ;
@@ -100,6 +116,10 @@
             .formg1{           
                 display: grid;
                 grid-template-columns: 300px 1fr;
+                @media (max-width: $mid) {
+                    grid-template-columns: 1fr;
+        
+                }
                 grid-gap: 10px;
                 align-items: flex-start;
             
@@ -119,10 +139,18 @@
         display: grid;
         grid-template-columns: auto auto;
         grid-gap: 10px;
+        @media (max-width: $mid) {
+            grid-template-columns: 1fr;
+
+        }
     }
 
     .ff {
         display: flex;
+        @media (max-width: $mid) {
+            display:  block;
+
+        }
     }
 
     table {

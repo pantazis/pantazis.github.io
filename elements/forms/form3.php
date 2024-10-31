@@ -28,8 +28,12 @@
                     </ul>
                     <p>In witness whereof, I sign this present declaration on behalf of Company on the date above.</p>
                     <div class="grids">
-                    <div class="box b2">For and on behalf of Company</div><div></div>
-                    <p>Signed: Mr./Mrs. Jesus Ruiz</p><div></div>
+                        <div>
+                            <div class="box b2">For and on behalf of Company</div>
+                            <p>Signed: Mr./Mrs. Jesus Ruiz</p>
+                        </div>
+                        <div></div>
+                       
                     </div>
                 </div>
             
@@ -111,10 +115,16 @@
                     individuals.</p>
                 <p>In witness whereof I sign this appointment letter on the date set at the beginning of the letter.</p>
                 <div class="grids">
-                <div class="box b2">For and on behalf of Company</div>
-                <div class="box b2">Acceptance of the appointment by the LEAR</div>
-                <p>Signed: Mr./Mrs. Jesus Ruiz</p>
-                <p>Accepted and signed: Mr./Mrs. John Doe</p>
+
+                <div>
+                    <div class="box b2">For and on behalf of Company</div>
+                    <p>Signed: Mr./Mrs. Jesus Ruiz</p>
+                </div>
+                <div>
+                    <div class="box b2">Acceptance of the appointment by the LEAR</div>
+                    <p>Accepted and signed: Mr./Mrs. John Doe</p>
+                </div>              
+               
                 </div>
             </div>
         
