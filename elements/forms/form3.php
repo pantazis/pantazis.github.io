@@ -47,26 +47,25 @@
                     its registered office at C/ Academia 54, Madrid-28654 Spain, in my capacity of legal representative,
                     after having read and understood the information below concerning the designation and the powers of
                     a LEAR within the DOME Marketplace, do hereby designate as the LEAR of Company:</p>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>Name and surname</td>
-                            <td>John Doe</td>
-                        </tr>
-                        <tr>
-                            <td>ID card number</td>
-                            <td>56332876F</td>
-                        </tr>
-                        <tr>
-                            <td>Postal address</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Email</td>
-                            <td>john.doe@airquality.com</td>
-                        </tr>
-                    </tbody>
-                </table>
+            
+        <div class="grid-table">
+            <div class="grid-row">
+                <div class="grid-cell first">Name and surname</div>
+                <div class="grid-cell">John Doe</div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-cell">ID card number</div>
+                <div class="grid-cell">56332876F</div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-cell">Postal address</div>
+                <div class="grid-cell"></div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-cell">Email</div>
+                <div class="grid-cell">john.doe@airquality.com</div>
+            </div>
+        </div>
                 <h2>ROLE AND POWERS OF THE LEAR</h2>
                 <p>The Legal Entity Appointed Representative (hereinafter, the LEAR) is the person that any entity
                     willing to onboard on the DOME Marketplace (hereinafter, the Marketplace) must designate to act,
