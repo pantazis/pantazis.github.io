@@ -240,6 +240,7 @@ body {
 }
 
 .grid657 {
+    position: relative;
 	--tw-border-opacity: 1;
 	display: grid;
 	grid-template-columns: 2fr 1fr;
@@ -314,13 +315,9 @@ body {
 
 
 
-.outbg {
-	background-image: url(https://yumket.eu/assets/logos/dome-logo-element-colour.png);
-	background-size: cover;
-}
 
 .outbg {
-	background-image: url(https://yumket.eu/assets/logos/dome-logo-element-colour.png);
+	background-image: url(./images/bg3.png);
 	background-size: cover;
 	position: absolute;
 	top: 0;
